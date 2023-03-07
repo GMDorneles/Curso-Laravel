@@ -68,6 +68,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Migrations comandos
 
--   \*\* php artisan migrate
--   \*\* php artisan make:migration add_nome
--   \*\* php artisan migrate:rollback
+-   php artisan migrate
+-   php artisan make:migration add_nome
+-   php artisan migrate:rollback
+-   php artisan migrate:status
+-   php artisan migrate:reset
+-   php artisan migrate:refresh
+-   php artisan migrate:fresh
+-   php artisan make:model Nome
